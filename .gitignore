@@ -1,0 +1,12 @@
+obj/*
+!obj/.gitkeep
+
+bin/*
+!bin/.gitkeep
+
+file/*
+!file/.gitkeep
+
+*.exe
+*.txt
+
