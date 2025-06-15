@@ -1,7 +1,13 @@
 init:
-	if not exist obj mkdir obj
-	if not exist bin mkdir bin
-	if not exist file mkdir file
+ifeq ($(OS),Windows_NT)
+	if not exist obj $(MKDIR_CMD) obj
+	if not exist bin $(MKDIR_CMD) bin
+	if not exist file $(MKDIR_CMD) file
+else
+	$(MKDIR) obj
+	$(MKDIR) bin
+	$(MKDIR) file
+endif
 
 app: init help.o file.o parse.o main.o 
 	gcc obj/help.o obj/main.o obj/file.o obj/parse.o -o bin/todo
