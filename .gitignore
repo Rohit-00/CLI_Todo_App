@@ -1,7 +1,7 @@
 # Compiled object files
-obj/
-bin/
-file/
+/obj
+/bin
+/file
 
 # Compiled binary executables
 bin/*.exe
