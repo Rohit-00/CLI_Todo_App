@@ -1,11 +1,5 @@
-obj/*
-!obj/.gitkeep
+*.o
 
-bin/*
-!bin/.gitkeep
-
-file/*
-!file/.gitkeep
 
 *.exe
 *.txt
