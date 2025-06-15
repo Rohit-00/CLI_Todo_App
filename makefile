@@ -1,8 +1,8 @@
 init:
 ifeq ($(OS),Windows_NT)
-	if not exist obj $(MKDIR_CMD) obj
-	if not exist bin $(MKDIR_CMD) bin
-	if not exist file $(MKDIR_CMD) file
+	if not exist mkdir mkdir obj
+	if not exist mkdir mkdir bin
+	if not exist mkdir mkdir file
 else
 	$(MKDIR) obj
 	$(MKDIR) bin
