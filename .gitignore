@@ -1,6 +1,7 @@
 # Compiled object files
-obj/*.o
-obj/*.obj
+obj/
+bin/
+file/
 
 # Compiled binary executables
 bin/*.exe
