@@ -1,12 +1,30 @@
-# Compiled object files
-/obj
-/bin
-/file
-
-# Compiled binary executables
-bin/*.exe
+# Binaries
+/bin/
+*.exe
 *.out
-*.a
-*.so
-*.dll
-*.dylib
+
+# Object files
+/obj/
+*.o
+*.obj
+
+# System/IDE files
+.DS_Store
+Thumbs.db
+
+# Backup/temporary files
+*~
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs (like CLion)
+.idea/
+cmake-build-*/
+
+# Optional: Ignore your runtime data file
+/file/todo.txt
