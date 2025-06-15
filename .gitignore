@@ -1,9 +1,9 @@
 # Compiled object files
-*.o
-*.obj
+obj/*.o
+obj/*.obj
 
 # Compiled binary executables
-*.exe
+bin/*.exe
 *.out
 *.a
 *.so
