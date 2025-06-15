@@ -1,12 +1,8 @@
 # Binaries
-/bin/
-*.exe
-*.out
+/bin/*.exe
 
 # Object files
-/obj/
-*.o
-*.obj
+/obj/*.o
 
 # System/IDE files
 .DS_Store
